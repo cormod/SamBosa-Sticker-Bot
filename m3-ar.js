@@ -70,9 +70,9 @@ async function bot(m3, message) {
   const arg = body.trim().substring(body.indexOf(' ') + 1)
   if ((txt == "sticker") || (isMedia && mimetype == 'image/jpeg')) {
     const a = "Sticker"                //ضع هنا حقوق البوت التي تظهر اسفل الملصق للصور … يجب الاتحتوي على زخارف او ايموجي فقط بالانجيليزي
-    const b = "SamBosa bot"            //ضع هنا حقوق البوت التي تظهر اسفل الملصق للصور … يجب الاتحتوي على زخارف او ايموجي فقط بالانجيليزي
+    const b = "hacke bot"            //ضع هنا حقوق البوت التي تظهر اسفل الملصق للصور … يجب الاتحتوي على زخارف او ايموجي فقط بالانجيليزي
     const author = "Sticker"                    //ضع هنا حقوق البوت التي تظهر اسفل الملصق للفيديو … يمكن ان يحتوي على زخارف او ايموجي
-    const pack = "🤖 Bot SamBosa 🤖"      //ضع هنا حقوق البوت التي تظهر اسفل الملصق للفيديو … يمكن ان يحتوي على زخارف او ايموجي
+    const pack = "🤖 Bot hacke 🤖"      //ضع هنا حقوق البوت التي تظهر اسفل الملصق للفيديو … يمكن ان يحتوي على زخارف او ايموجي
     await createExif(a,b)
     await sleep(3000)
     await m3.reply(from, message.id)
@@ -359,7 +359,7 @@ const convertSticker = function(shape, author, pack, mediaData, type) {
       "pack": pack,
       "author": author,
       "shape": shape,
-      "api_key": "JDJiJDEwJEtBMm0wUDRzRmZnZjFLSTFhTkdCT3VKTnN1dHouenh4VlVlUVVqcHlVMWk1SURnSnpUZjNl",
+      "api_key": "JDJiJDEwJDJIaExTeG1HUlRZNHlBYkM0amY2VS5MckhpTTQ0OWhPdXk1bFNFNjRxMHYzRmhHTW9vempp",
 // api_key تأخذه من موقع https://stickerman.org || سجل في الموقع للحصول عليه
     };
     var url = "https://stickerman.org/api/convert";
